@@ -14,4 +14,4 @@ The app is integrated with ,
 ### 1: Eslint, prettier and husky pre commit hooks to maintain the code qaulity and code errors.
 ### 2: react-router-dom => to manage the routing in the app
 
-# spacex-tensorio-assignment
+# spacex-tensoriot-assignment
