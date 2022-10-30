@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+.wrapper {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 100px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  padding-left: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.MuiToolbar-root {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.item {
+  margin-left: auto;
+}
+/* .MuiGrid-root {
+  display: flex;
+  justify-content: end;
+} */
+
+.MuiGrdi-container {
+  justify-content: space-around;
+  /* margin-left: auto; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .MuiDataGrid-cell:focus {
+  outline: none !important;
 }
+.MuiCheckbox-root:focus {
+  outline: none;
+}
+
+.MuiDataGrid-root {
+  color: #254b58;
+  border-radius: 16px;
+}
+.MuiDataGrid-row {
+  cursor: pointer;
+}
+.MuiDataGrid-cell {
+  border: none;
+} */

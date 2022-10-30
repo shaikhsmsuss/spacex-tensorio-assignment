@@ -1,0 +1,128 @@
+.MuiDataGrid-cell:focus {
+  outline: none !important;
+  .MuiCheckbox-root:focus {
+    outline: none;
+  }
+}
+.MuiDataGrid-root {
+  color: #254b58 !important;
+  border-radius: 16px;
+  .MuiDataGrid-row {
+    cursor: pointer;
+    .MuiDataGrid-cell {
+      border: none;
+    }
+  }
+}
+.MuiDataGrid-columnSeparator--sideRight {
+  display: none !important;
+}
+
+.MuiDataGrid-columnHeaders {
+  background-color: rgb(204, 204, 200);
+}
+
+.Header {
+  background-color: rgb(204, 204, 200) !important ;
+}
+
+.header-wrapper {
+  font-size: 24px;
+  color: black;
+}
+
+.succes {
+  width: 60px;
+  border-radius: 10px;
+  background-color: #a6faafc2;
+  color: rgb(28, 109, 98);
+  padding-left: 10px;
+  font-weight: 700;
+  padding-right: 10px;
+  &.modal-success {
+    padding-bottom: 4px;
+  }
+}
+.upcoming {
+  width: 70px;
+  border-radius: 10px;
+  background-color: #faf9a6;
+  color: rgb(136, 135, 56);
+  padding-left: 10px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+.failed {
+  width: 50px;
+  border-radius: 10px;
+  background-color: #f7bcbc;
+  color: rgb(160, 11, 11);
+  padding-left: 10px;
+  font-weight: 700;
+}
+.model-popup-wrapper {
+  padding: 24px;
+  position: relative;
+  background: #fff;
+  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  max-width: 550px;
+  margin: 4rem auto;
+  outline: none;
+  z-index: 9999 !important;
+}
+.close-btn {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  cursor: pointer;
+}
+.modal-body-item {
+  margin: 10px;
+}
+.span-item {
+  margin-right: 5px;
+}
+.icons-data {
+  margin-top: 8px;
+}
+.rocket-name {
+  margin-top: 8px;
+}
+.flight-info-container {
+  height: 300px;
+  overflow-y: auto;
+}
+.flght-info {
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+.modal-success {
+  margin-top: 0;
+}
+
+.table-grid {
+  height: 440px;
+  width: 100%;
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+@media only screen and (max-width: 1440px) {
+  .table-grid {
+    min-height: calc(100vh - 220px);
+  }
+  .flight-info-container {
+    min-height: calc(100vh - 400px);
+  }
+}
